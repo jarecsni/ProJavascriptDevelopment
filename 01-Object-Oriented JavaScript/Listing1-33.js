@@ -4,7 +4,7 @@ var personalDetails = {
     email: "den.odell@me.com"
 };
 
-Object.getOwnPropertyDescriptor(personalDetails, "name");
+console.log(Object.getOwnPropertyDescriptor(personalDetails, "name"));
 // Returns the following object literal representing the 'name' property:
 // {
 //     configurable: true,

@@ -4,6 +4,7 @@ var personalDetails = {
     email: "den.odell@me.com"
 };
 
+
 // Define a new individual property for the object
 Object.defineProperty(personalDetails, "age", {
     value: 35,
@@ -13,7 +14,7 @@ Object.defineProperty(personalDetails, "age", {
 });
 
 // Define multiple new properties at the same time
-Object.defineProperty(personalDetails, {
+Object.defineProperties(personalDetails, {
     age: {
         value: 35,
         writable: false,
@@ -25,3 +26,4 @@ Object.defineProperty(personalDetails, {
         writable: true
     }
 });
+
