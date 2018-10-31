@@ -8,7 +8,7 @@
 var Accommodation = Class.create({
 
     /**
-     * Denotes whether the acommodation is currently locked
+     * Denotes whether the accommodation is currently locked
      *
      * @property {Boolean} isLocked
      */
@@ -16,7 +16,7 @@ var Accommodation = Class.create({
     isLocked: true,
 
     /**
-     * Denotes whether the acommodation is currently alarmed - thieves beware!
+     * Denotes whether the accommodation is currently alarmed - thieves beware!
      *
      * @property {Boolean} isAlarmed
      */
